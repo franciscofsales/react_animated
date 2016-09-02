@@ -1,1 +1,5 @@
-# react_native_image_spinner
+# React Native Image Spinner
+
+# Install
+
+# Usage

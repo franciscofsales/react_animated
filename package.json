@@ -1,0 +1,11 @@
+{
+  "name": "react_native_image_spinner",
+  "version": "1.0.0",
+  "description": "Stabilized spinning images in react native.",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Introvertuous/react_native_image_spinner"
+  },
+  "dependencies": {
+  }
+}
