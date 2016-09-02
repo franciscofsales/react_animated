@@ -1,6 +1,6 @@
 {
   "name": "react_native_image_spinner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stabilized spinning images in react native.",
   "repository": {
     "type" : "git",
