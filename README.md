@@ -4,6 +4,7 @@ This is package is a react native component that takes 8 icon images (they can b
 
 ![](https://media.giphy.com/media/l2SqdYKF6sPGZ3vhK/giphy.gif)
 
+
 # Install
 
 # Usage
