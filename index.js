@@ -71,7 +71,7 @@ export default class ImageSpinner extends React.Component {
       toValue: TARGET,
       duration: DURATION,
       easing: Easing.linear
-    }).start();
+    }).start(animate);
   }
 
   getTransform(clockwise) {
