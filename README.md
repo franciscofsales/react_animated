@@ -1,6 +1,6 @@
 # React Native Image Spinner
 
-This package is a react native component that takes 8 icon images (they can be any size but will be scaled down to 32x32) and animates them spinning in a circle. Optionally you can provide a background image that the 8 icons will rotate around.
+This package is a react native component that takes 8 icon images and animates them spinning in a circle. At the moment the images will scale down to 32x32 so if you use an image with any other dimension (say 64x64) the performance hit will be severe (don't do it). Optionally you can provide a background image that the 8 icons will rotate around.
 
 ![](https://media.giphy.com/media/l2SqdYKF6sPGZ3vhK/giphy.gif)
 
