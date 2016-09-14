@@ -59,6 +59,8 @@ export default class ImageSpinner extends React.Component {
     this.state = {
       angle: new Animated.Value(0)
     }
+
+    this.animate = this.animate.bind(this);
   }
 
   componentDidMount() {
