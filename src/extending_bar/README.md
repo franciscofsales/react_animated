@@ -19,11 +19,11 @@ flex                | 'center'                 | String   | The justification of
   <ExtendingBar stroke={"blue"} centerHeight={30} duration={1000} flex={'flex-start'}/>
   <ExtendingBar stroke={"#64cdc8"} duration={6000} flex={'flex-start'}/>
 ```
-![](https://github.com/Introvertuous/react_native_animated/blob/master/assets/left_1.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/left_2.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/left_3.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/left_4.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/left_5.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/left_1.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/left_2.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/left_3.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/left_4.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/left_5.gif?raw=true)
 
 ```
   <ExtendingBar/>
@@ -32,11 +32,11 @@ flex                | 'center'                 | String   | The justification of
   <ExtendingBar stroke={"blue"} centerHeight={30} duration={1000}/>
   <ExtendingBar stroke={"#64cdc8"} duration={6000}/>
 ```
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/center_1.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/center_2.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/center_3.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/center_4.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/center_5.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/center_1.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/center_2.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/center_3.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/center_4.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/center_5.gif?raw=true)
 
 ```
   <ExtendingBar flex={'flex-end'}/>
@@ -45,8 +45,8 @@ flex                | 'center'                 | String   | The justification of
   <ExtendingBar stroke={"blue"} centerHeight={30} duration={1000} flex={'flex-end'}/>
   <ExtendingBar stroke={"#64cdc8"} duration={6000} flex={'flex-end'}/>
 ```
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/right_1.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/right_2.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/right_3.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/right_4.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_ExtendingBar/blob/master/assets/right_5.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/right_1.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/right_2.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/right_3.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/right_4.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/right_5.gif?raw=true)
