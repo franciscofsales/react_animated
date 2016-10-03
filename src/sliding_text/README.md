@@ -71,7 +71,7 @@ render () {
 }
 
 ```
-![](https://github.com/Introvertuous/react_native_animated_text/blob/master/assets/stranger_things.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/sliding_text/assets/stranger_things.gif?raw=true)
 
 ```
 const ttf = require('../../fonts/benguiat.json');
@@ -113,7 +113,7 @@ render () {
   )
 }
 ```
-![](https://github.com/Introvertuous/react_native_animated_text/blob/master/assets/hello_world.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/sliding_text/assets/hello_world.gif?raw=true)
 
 ```
 const ttf = require('../../fonts/flashrogers.json');
@@ -181,7 +181,7 @@ render () {
   )
 }
 ```
-![](https://github.com/Introvertuous/react_native_animated_text/blob/master/assets/fast.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/sliding_text/assets/fast.gif?raw=true)
 
 
 ```
@@ -242,4 +242,4 @@ render () {
 }
 
 ```
-![](https://github.com/Introvertuous/react_native_animated_text/blob/master/assets/big_bang.gif?raw=true)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/sliding_text/assets/big_bang.gif?raw=true)
