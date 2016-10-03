@@ -1,5 +1,5 @@
 # React Native Animated
-This repo is a collection of animated components in react native. The examples app has demos for every animation.
+This repo is a collection of animated components in react native. The example app has demos for every animation.
 
 ## Install
 
