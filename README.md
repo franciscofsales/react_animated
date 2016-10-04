@@ -18,5 +18,3 @@ npm install react_native_animated --save
 
 ###[Image Spinner](https://github.com/Introvertuous/react_native_animated/tree/master/src/image_spinner)
 ![](https://github.com/Introvertuous/react_native_animated/blob/master/src/image_spinner/assets/demo.gif?raw=true)
-
-###[Slack](https://github.com/Introvertuous/react_native_animated/tree/master/src/slack)
