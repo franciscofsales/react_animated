@@ -1,6 +1,5 @@
 # React Native Animated
-This package is a collection of animated components as well as tools / utilities for creating animations in react native. 
-The example app has demos for every animation.
+This package is a collection of animated components as well as tools / utilities for creating animations in react native.
 
 ## Install
 
