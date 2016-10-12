@@ -9,6 +9,15 @@ To install, use npm:
 npm install react_native_animated --save
 ```
 
+You will need react-native-svg to use this package. 
+Ideally in the future react native will have svg support.
+Use npm and react-native linking to install:
+
+```
+npm install react-native-svg --save
+react-native link react-native-svg
+```
+
 ## Examples
 ###[Sliding Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/sliding_text)
 ![](https://github.com/Introvertuous/react_native_animated/blob/master/src/sliding_text/assets/stranger_things.gif?raw=true)
