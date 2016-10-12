@@ -9,9 +9,7 @@ To install, use npm:
 npm install react_native_animated --save
 ```
 
-You will need react-native-svg to use this package. 
-
-Ideally in the future react native will have svg support.
+You will need react-native-svg to use this package but ideally in the future react native will have svg support removing the need for this dependency.
 
 Use npm and react-native linking to install:
 
