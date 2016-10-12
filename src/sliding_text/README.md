@@ -1,13 +1,4 @@
 
-## Install
-You will need react-native-svg to use this component.
-Use npm and react-native linking to install:
-
-```
-npm install react-native-svg --save
-react-native link react-native-svg
-```
-
 ## Properties
 Name                | Default                  |  Type    | Description
 --------------------|--------------------------|----------|---------------------------
