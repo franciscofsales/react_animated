@@ -40,8 +40,8 @@ Here is an example from an animated component in this package (Extending Bar).
 Import like this:
 
 ```
-import {animation, generators} from 'react_native_animated';
-let {sequence} = generators;
+import {utilities} from 'react_native_animated';
+let {sequence} = utilities.generators;
 
 ...
 
