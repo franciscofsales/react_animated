@@ -9,7 +9,8 @@ To install, use npm:
 npm install react_native_animated --save
 ```
 
-You will need react-native-svg to use this package but ideally in the future react native will have svg support removing the need for this dependency.
+Some components will require svg's so you will need to install react-native-svg.
+Ideally in the future react native will have svg support removing the need for this dependency.
 
 Use npm and react-native linking to install:
 
@@ -18,7 +19,35 @@ npm install react-native-svg --save
 react-native link react-native-svg
 ```
 
-## Examples
+## Utilities
+I wrote some utilities that should make writing animations more simplistic and straight forward. 
+Here is an example from an animated component in this package (Extending Bar).
+```
+...
+
+  componentDidMount() {
+    sequence([
+      animation(this.state.pillarWidth)
+        .to(this.props.borderWidth).ease(Easing.elastic(0.4)).delay(this.props.delay),
+      animation(this.state.width)
+        .to(this.props.width).in(this.props.duration).ease(Easing.elastic(0.4))
+    ], true);
+  }
+
+...
+```
+
+Import like this:
+
+```
+import {animation, generators} from 'react_native_animated';
+let {sequence} = generators;
+
+...
+
+```
+
+## Component Examples
 ###[Sliding Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/sliding_text)
 ![](https://github.com/Introvertuous/react_native_animated/blob/master/src/sliding_text/assets/stranger_things.gif?raw=true)
 

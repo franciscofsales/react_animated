@@ -1,5 +1,6 @@
 import ExtendingBar from './src/extending_bar';
 import ImageSpinner from './src/image_spinner';
-import {Animation, SlidingText} from './src/sliding_text'
+import animation from './src/lib/animation';
+import generators from './src/lib/generators';
 
-module.exports = { ExtendingBar, ImageSpinner, Animation, SlidingText };
+module.exports = { ExtendingBar, ImageSpinner, animation, generators };

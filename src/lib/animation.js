@@ -1,19 +1,17 @@
 'use strict';
 
+import {isNumeric} from './utilities';
+
 var Animation = {
-  init(data, ix, iy, px, py, scaling=0.60) {
-    this.data = data;
-    this.ix = ix;
-    this.iy = iy;
-    this.px = px;
-    this.py = py;
-    this.scaling = scaling;
+  init(state) {
+    this.state = state;
+    this._iv = state._value;
     this._events = [];
     return this;
   },
   to(x, y) {
-    if(typeof x === 'string')
-      this._events.push({special:x});
+    if(!isNumeric(y))
+      this._events.push({toValue:x});
     else
       this._events.push({toValue:{x, y}});
     return this;
@@ -32,9 +30,12 @@ var Animation = {
     if(this._events.length > 0)
       this._events[this._events.length - 1].delay = duration;
     return this;
+  },
+  reset() {
+    this.state.setValue(this._iv);
   }
 };
 
-export default function create(letter, ix, iy, px, py, scaling) {
-  return Object.create(Animation).init(letter, ix, iy, px, py, scaling);
+export default function create(state) {
+  return Object.create(Animation).init(state);
 }

@@ -1,8 +1,13 @@
 {
   "name": "react_native_animated",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/Introvertuous/react_native_animated"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-plugin-react": "^6.3.0",
+    "eslint-plugin-react-native": "^2.0.0"
   }
 }
