@@ -14,20 +14,24 @@ function getTimings(animations) {
   return anims;
 }
 
-export function sequence(animations, repeat) {
+function applyOperation(op, animations, repeat) {
   var anims = getTimings(animations);
-
   let animate = ()=>{
     if(repeat) {
       animations.map(anim => anim.reset());
-      Animated.sequence(anims).start(animate);
+      op(anims).start(animate);
     }
     else
-      Animated.sequence(anims).start();
+      op(anims).start();
   };
   animate();
 }
 
-export function parallel() {
-  
+export function sequence() {
+  applyOperation(Animated.sequence, ...arguments);
 }
+
+export function parallel() {
+  applyOperation(Animated.parallel, ...arguments);
+}
+

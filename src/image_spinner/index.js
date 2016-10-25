@@ -2,10 +2,11 @@ import React, {PropTypes, Component} from 'react';
 import { StyleSheet, View, Animated, Easing } from 'react-native';
 import { sequence } from '../lib/generators';
 import animation from '../lib/animation';
+var icon = require('./assets/pd.png');
 
-var MULTIPLIER = 400;
-var TARGET = 360*MULTIPLIER;
-var DURATION = 6800*MULTIPLIER;
+const MULTIPLIER = 400;
+const TARGET = 360*MULTIPLIER;
+const DURATION = 6800*MULTIPLIER;
 
 const styles = StyleSheet.create({
   small: {
@@ -99,14 +100,25 @@ class ImageSpinner extends Component {
 }
 
 ImageSpinner.propTypes = {
-  im_0: PropTypes.number.isRequired,
-  im_1: PropTypes.number.isRequired,
-  im_2: PropTypes.number.isRequired,
-  im_3: PropTypes.number.isRequired,
-  im_4: PropTypes.number.isRequired,
-  im_5: PropTypes.number.isRequired,
-  im_6: PropTypes.number.isRequired,
-  im_7: PropTypes.number.isRequired
+  im_0: PropTypes.number,
+  im_1: PropTypes.number,
+  im_2: PropTypes.number,
+  im_3: PropTypes.number,
+  im_4: PropTypes.number,
+  im_5: PropTypes.number,
+  im_6: PropTypes.number,
+  im_7: PropTypes.number
+};
+
+ImageSpinner.defaultProps = {
+  im_0: icon,
+  im_1: icon,
+  im_2: icon,
+  im_3: icon,
+  im_4: icon,
+  im_5: icon,
+  im_6: icon,
+  im_7: icon
 };
 
 export default ImageSpinner;

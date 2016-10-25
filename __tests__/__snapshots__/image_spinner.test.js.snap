@@ -1,0 +1,187 @@
+exports[`test renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+    }
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 25,
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+      }
+    }>
+    <View
+      style={
+        Object {
+          "height": 32,
+          "width": 32,
+        }
+      }>
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 32,
+            "transform": Array [
+              Object {
+                "rotate": "360deg",
+              },
+            ],
+            "width": 32,
+          }
+        } />
+    </View>
+    <View
+      style={
+        Object {
+          "height": 160,
+          "justifyContent": "space-between",
+          "width": 32,
+        }
+      }>
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 32,
+            "transform": Array [
+              Object {
+                "rotate": "360deg",
+              },
+            ],
+            "width": 32,
+          }
+        } />
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 32,
+            "transform": Array [
+              Object {
+                "rotate": "360deg",
+              },
+            ],
+            "width": 32,
+          }
+        } />
+    </View>
+    <View
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "width": 32,
+        }
+      } />
+    <View
+      style={
+        Object {
+          "height": 224,
+          "justifyContent": "space-between",
+          "width": 32,
+        }
+      }>
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 32,
+            "transform": Array [
+              Object {
+                "rotate": "360deg",
+              },
+            ],
+            "width": 32,
+          }
+        } />
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 32,
+            "transform": Array [
+              Object {
+                "rotate": "360deg",
+              },
+            ],
+            "width": 32,
+          }
+        } />
+    </View>
+    <View
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "width": 32,
+        }
+      } />
+    <View
+      style={
+        Object {
+          "height": 160,
+          "justifyContent": "space-between",
+          "width": 32,
+        }
+      }>
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 32,
+            "transform": Array [
+              Object {
+                "rotate": "360deg",
+              },
+            ],
+            "width": 32,
+          }
+        } />
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 32,
+            "transform": Array [
+              Object {
+                "rotate": "360deg",
+              },
+            ],
+            "width": 32,
+          }
+        } />
+    </View>
+    <View
+      style={
+        Object {
+          "height": 32,
+          "width": 32,
+        }
+      }>
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 32,
+            "transform": Array [
+              Object {
+                "rotate": "360deg",
+              },
+            ],
+            "width": 32,
+          }
+        } />
+    </View>
+  </View>
+</View>
+`;
