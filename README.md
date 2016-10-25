@@ -9,8 +9,7 @@ npm install react_native_animated --save
 ```
 
 ## Utilities
-I export some utilities that should make writing animations more simplistic and straight forward. 
-Here is an example from an animated component in this package ([Extending Bar](https://github.com/Introvertuous/react_native_animated/tree/master/src/extending_bar)).
+Here is an example of the utilties from an animated component in this package ([Extending Bar](https://github.com/Introvertuous/react_native_animated/tree/master/src/extending_bar)).
 ```
 //...
   componentDidMount() {
