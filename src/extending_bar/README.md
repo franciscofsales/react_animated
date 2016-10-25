@@ -1,14 +1,14 @@
 
 ## Properties
 Name                | Default                  |  Type      | Description
---------------------|--------------------------|------------|------------------------------------------------------------
-delay               | 1000                     | Number(ms) | Initial delay (ms) before animation plays.
+--------------------|--------------------------|------------|--------------------------------------------------------
+delay               | 1000                     | Number(ms) | Initial delay before animation plays.
 stroke              | '#de0e1b'                | String     | Color for the border.
 fill                | 'transparent'            | String     | Color for the center section.
 width               | 300                      | Number(dp) | Width of center section after animation.
 borderWidth         | 1                        | Number(dp) | Width of the border.
 centerHeight        | 6                        | Number(dp) | Height of the center section.
-duration            | 2000                     | Number(ms) | The duration (ms) that the animation will take to complete.
+duration            | 2000                     | Number(ms) | The duration that the animation will take to complete.
 
 ## Examples
 ```
