@@ -1,5 +1,3 @@
-'use strict';
-
 import {isNumeric} from './utilities';
 
 var Animation = {
