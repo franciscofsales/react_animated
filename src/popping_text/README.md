@@ -9,4 +9,4 @@ entries         | N/A       | Array(strings) | Strings that will be popped.
 ```
 <PoppingText entries={['Location: Ottawa, ON', 'Weather: Snowing', 'Time: 2:00PM']}/>
 ```
-![](http://im2.ezgif.com/tmp/ezgif-1168164512.gif)
+![](https://www.dropbox.com/s/tkf8b7tzj2qffuh/popping_text.gif?dl=1)
