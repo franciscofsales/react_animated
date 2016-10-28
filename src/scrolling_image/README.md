@@ -10,6 +10,14 @@ maxY          | 1000        | Number(dp)    | Max vertical translation.
 
 ## Examples
 ```
-<ImageSpinner/>
+const fog = require('./fog.png');
+/...
+  render() {
+    return (
+      <View>
+        <ScrollingImage image={fog} color='black'/>
+      </View>
+    );
+  }
 ```
-![](https://www.dropbox.com/s/acecb0z14rjhaxq/image_spinner.gif?dl=1)
+![](https://www.dropbox.com/s/dhtrnel371unabp/scrolling_image.gif?dl=1)
