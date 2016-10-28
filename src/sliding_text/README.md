@@ -43,4 +43,4 @@ render () {
   )
 }
 ```
-![](https://github.com/Introvertuous/react_native_animated/blob/master/src/sliding_text/assets/demo.gif?raw=true)
+![](https://www.dropbox.com/s/x5cfmqi2gl8tzp9/sliding_text.gif?dl=1)
