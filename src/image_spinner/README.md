@@ -9,4 +9,4 @@ im_0 - im_7         | public domain icon       | Number(asset) | Images used in 
 ```
 <ImageSpinner/>
 ```
-![](https://github.com/Introvertuous/react_native_animated/blob/master/src/image_spinner/assets/demo.gif?raw=true)
+![](https://www.dropbox.com/s/acecb0z14rjhaxq/image_spinner.gif?dl=1)
