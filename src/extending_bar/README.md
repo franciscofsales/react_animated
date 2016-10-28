@@ -19,7 +19,7 @@ duration            | 2000                     | Number(ms) | The duration that 
 <ExtendingBar stroke={'#64cdc8'} duration={6000}/>
 ```
 ![](https://www.dropbox.com/s/hdsbypeee5avqe6/extending_bar_1.gif?dl=1)
-![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/center_2.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/center_3.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/center_4.gif?raw=true)
-![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/center_5.gif?raw=true)
+![](https://www.dropbox.com/s/n2kr0nhpmt8s4ql/extending_bar_2.gif?dl=1)
+![](https://www.dropbox.com/s/dkkkq2gr5ek23kj/extending_bar_3.gif?dl=1)
+![](https://www.dropbox.com/s/tfcm233tw07n5ll/extending_bar_4.gif?dl=1)
+![](https://www.dropbox.com/s/pwmc4tbyprfbpzx/extending_bar_5.gif?dl=1)
