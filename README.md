@@ -35,14 +35,16 @@ Here is an example of the utilties from an animated component in this package ([
 ## Components
 
 ###[Sliding Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/sliding_text)
-![](https://github.com/Introvertuous/react_native_animated/blob/master/src/sliding_text/assets/demo.gif?raw=true)
+![](https://www.dropbox.com/s/1lorwv4dt5zke6w/sliding_text.gif?dl=1)
 
 ###[Extending Bar](https://github.com/Introvertuous/react_native_animated/tree/master/src/extending_bar)
-![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/center_1.gif?raw=true)
+![](https://www.dropbox.com/s/hdsbypeee5avqe6/extending_bar_1.gif?dl=1)
 
 ###[Image Spinner](https://github.com/Introvertuous/react_native_animated/tree/master/src/image_spinner)
-![](https://github.com/Introvertuous/react_native_animated/blob/master/src/image_spinner/assets/demo.gif?raw=true)
+![](https://www.dropbox.com/s/acecb0z14rjhaxq/image_spinner.gif?dl=1)
 
-###[Scrolling Image]()
+###[Scrolling Image](https://github.com/Introvertuous/react_native_animated/tree/master/src/scrolling_image)
+![](https://www.dropbox.com/s/dhtrnel371unabp/scrolling_image.gif?dl=1)
 
-###[Popping Text]()
+###[Popping Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/popping_text)
+![](https://www.dropbox.com/s/tkf8b7tzj2qffuh/popping_text.gif?dl=1)
