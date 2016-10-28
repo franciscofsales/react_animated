@@ -12,4 +12,4 @@ maxY          | 1000        | Number(dp)    | Max vertical translation.
 ```
 <ImageSpinner/>
 ```
-![]()
+![](http://im2.ezgif.com/tmp/ezgif-645137310.gif)
