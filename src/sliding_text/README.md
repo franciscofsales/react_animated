@@ -43,4 +43,4 @@ render () {
   )
 }
 ```
-![](https://www.dropbox.com/s/x5cfmqi2gl8tzp9/sliding_text.gif?dl=1)
+![](http://im2.ezgif.com/tmp/ezgif-3160467965.gif)
