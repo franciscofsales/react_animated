@@ -27,11 +27,12 @@ function applyOperation(op, animations, repeat) {
   animate();
 }
 
-export function sequence() {
+function sequence() {
   applyOperation(Animated.sequence, ...arguments);
 }
 
-export function parallel() {
+function parallel() {
   applyOperation(Animated.parallel, ...arguments);
 }
 
+module.exports = {sequence, parallel};

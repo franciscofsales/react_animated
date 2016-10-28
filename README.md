@@ -2,10 +2,19 @@
 This package is a collection of animated components as well as a few utilities for creating animations in react native.
 
 ## Install
-
 To install, use npm:
+
 ```
 npm install react_native_animated --save
+```
+
+Some components require svg's so you will also need to install react-native-svg.
+Ideally in the future react native will have svg support removing the need for this peer dependency.
+
+Use npm and react-native linking to install:
+```
+npm install react-native-svg --save
+react-native link react-native-svg
 ```
 
 ## Utilities
@@ -24,6 +33,10 @@ Here is an example of the utilties from an animated component in this package ([
 ```
 
 ## Components
+
+###[Sliding Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/sliding_text)
+![](https://github.com/Introvertuous/react_native_animated/blob/master/src/sliding_text/assets/demo.gif?raw=true)
+
 ###[Extending Bar](https://github.com/Introvertuous/react_native_animated/tree/master/src/extending_bar)
 ![](https://github.com/Introvertuous/react_native_animated/blob/master/src/extending_bar/assets/center_1.gif?raw=true)
 
