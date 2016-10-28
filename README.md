@@ -42,3 +42,7 @@ Here is an example of the utilties from an animated component in this package ([
 
 ###[Image Spinner](https://github.com/Introvertuous/react_native_animated/tree/master/src/image_spinner)
 ![](https://github.com/Introvertuous/react_native_animated/blob/master/src/image_spinner/assets/demo.gif?raw=true)
+
+###[Scrolling Image]()
+
+###[Popping Text]()

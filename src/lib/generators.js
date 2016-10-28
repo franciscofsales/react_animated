@@ -14,25 +14,41 @@ function getTimings(animations) {
   return anims;
 }
 
-function applyOperation(op, animations, repeat) {
+function applyOperation(op, animations, callback=()=>{}) {
   var anims = getTimings(animations);
+  var repeat = false;
+  var triggered = false;
+
   let animate = ()=>{
     if(repeat) {
+      callback();
       animations.map(anim => anim.reset());
       op(anims).start(animate);
     }
-    else
+    else if(!triggered) {
+      callback();
       op(anims).start();
+    }
+    triggered = true;
   };
-  animate();
+
+  return {
+    stop: () => {
+      repeat = false;
+    },
+    start: (isRepeating=false) => {
+      repeat = isRepeating;
+      animate();
+    }
+  }
 }
 
 function sequence() {
-  applyOperation(Animated.sequence, ...arguments);
+  return applyOperation(Animated.sequence, ...arguments);
 }
 
 function parallel() {
-  applyOperation(Animated.parallel, ...arguments);
+  return applyOperation(Animated.parallel, ...arguments);
 }
 
 module.exports = {sequence, parallel};

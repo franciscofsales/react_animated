@@ -42,6 +42,5 @@ render () {
     </View>
   )
 }
-
 ```
 ![](https://github.com/Introvertuous/react_native_animated/blob/master/src/sliding_text/assets/demo.gif?raw=true)

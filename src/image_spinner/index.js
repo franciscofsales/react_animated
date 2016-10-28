@@ -2,7 +2,7 @@ import React, {PropTypes, Component} from 'react';
 import { StyleSheet, View, Animated, Easing } from 'react-native';
 import { sequence } from '../lib/generators';
 import animation from '../lib/animation';
-var icon = require('./assets/pd.png');
+var icon = require('./pd.png');
 
 const MULTIPLIER = 400;
 const TARGET = 360*MULTIPLIER;
@@ -49,7 +49,7 @@ class ImageSpinner extends Component {
     sequence([
       animation(this.state.angle)
         .to(TARGET).in(DURATION).ease(Easing.linear)
-    ], true);
+    ]).start(true);
   }
 
   getTransform(clockwise) {

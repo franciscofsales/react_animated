@@ -39,7 +39,7 @@ class SlidingText extends React.Component {
   }
 
   componentDidMount() {
-    parallel(this.state.animations);
+    parallel(this.state.animations).start();
   }
 
   renderSvg(o, i) {
