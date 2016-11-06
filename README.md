@@ -33,7 +33,6 @@ Here is an example of the utilties from an animated component in this package ([
 ```
 
 ## Components
-
 ###[Sliding Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/sliding_text)
 ![](https://www.dropbox.com/s/1lorwv4dt5zke6w/sliding_text.gif?dl=1)
 
@@ -48,3 +47,6 @@ Here is an example of the utilties from an animated component in this package ([
 
 ###[Popping Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/popping_text)
 ![](https://www.dropbox.com/s/tkf8b7tzj2qffuh/popping_text.gif?dl=1)
+
+## Blogging
+###[From Stranger Things to React Native](https://medium.com/@introvertuouso/from-stranger-things-to-react-native-f2434b3773a7)
