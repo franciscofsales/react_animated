@@ -42,4 +42,4 @@ Here is an example from an animated component in this package ([Extending Bar](h
 - [Popping Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/popping_text)
 
 ## Blogging
-###[From Stranger Things to React Native](https://medium.com/@introvertuouso/from-stranger-things-to-react-native-f2434b3773a7)
+- [From Stranger Things to React Native](https://medium.com/@introvertuouso/from-stranger-things-to-react-native-f2434b3773a7)
