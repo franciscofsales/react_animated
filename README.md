@@ -34,22 +34,12 @@ Here is an example from an animated component in this package ([Extending Bar](h
 //...
 ```
 
-
-## Components
-###[Sliding Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/sliding_text)
-![](https://www.dropbox.com/s/1lorwv4dt5zke6w/sliding_text.gif?dl=1)
-
-###[Extending Bar](https://github.com/Introvertuous/react_native_animated/tree/master/src/extending_bar)
-![](https://www.dropbox.com/s/hdsbypeee5avqe6/extending_bar_1.gif?dl=1)
-
-###[Image Spinner](https://github.com/Introvertuous/react_native_animated/tree/master/src/image_spinner)
-![](https://www.dropbox.com/s/acecb0z14rjhaxq/image_spinner.gif?dl=1)
-
-###[Scrolling Image](https://github.com/Introvertuous/react_native_animated/tree/master/src/scrolling_image)
-![](https://www.dropbox.com/s/dhtrnel371unabp/scrolling_image.gif?dl=1)
-
-###[Popping Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/popping_text)
-![](https://www.dropbox.com/s/tkf8b7tzj2qffuh/popping_text.gif?dl=1)
+## Components (visual examples included)
+- [Sliding Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/sliding_text)
+- [Extending Bar](https://github.com/Introvertuous/react_native_animated/tree/master/src/extending_bar)
+- [Image Spinner](https://github.com/Introvertuous/react_native_animated/tree/master/src/image_spinner)
+- [Scrolling Image](https://github.com/Introvertuous/react_native_animated/tree/master/src/scrolling_image)
+- [Popping Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/popping_text)
 
 ## Blogging
 ###[From Stranger Things to React Native](https://medium.com/@introvertuouso/from-stranger-things-to-react-native-f2434b3773a7)
