@@ -34,7 +34,7 @@ Here is an example from an animated component in this package ([Extending Bar](h
 //...
 ```
 
-## Components (visual examples included)
+## Components (instructions & examples included)
 - [Sliding Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/sliding_text)
 - [Extending Bar](https://github.com/Introvertuous/react_native_animated/tree/master/src/extending_bar)
 - [Image Spinner](https://github.com/Introvertuous/react_native_animated/tree/master/src/image_spinner)
