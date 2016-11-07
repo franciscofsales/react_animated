@@ -3,7 +3,7 @@
 Name                | Default                  |  Type      | Description
 --------------------|--------------------------|------------|------------------------------------------------
 font                | N/A                      | Object     | See FontToJsvg utility from [media_utilities](https://github.com/Introvertuous/media_utilities).
-letters             | N/A                      | Array      | Array of letter objects (see lib/letter.js)
+letters             | N/A                      | Array      | Array of letter objects.
 delay               | 0                        | Number(ms) | Delay before the animation begins.
 stroke              | red                      | String     | Color for the letter's outline.
 
