@@ -18,7 +18,9 @@ react-native link react-native-svg
 ```
 
 ## Utilities
-Here is an example of the utilties from an animated component in this package ([Extending Bar](https://github.com/Introvertuous/react_native_animated/tree/master/src/extending_bar)).
+The idea is to provide a bunch of [generators](https://github.com/Introvertuous/react_native_animated/blob/master/src/lib/generators.js) and a single [animation](https://github.com/Introvertuous/react_native_animated/blob/master/src/lib/animation.js) "class" to easily chain together complex animations. Please refer to those files for details on their usage.
+
+Here is an example from an animated component in this package ([Extending Bar](https://github.com/Introvertuous/react_native_animated/tree/master/src/extending_bar)).
 ```
 //...
   componentDidMount() {
@@ -27,10 +29,11 @@ Here is an example of the utilties from an animated component in this package ([
         .to(this.props.borderWidth).ease(Easing.elastic(0.4)).delay(this.props.delay),
       animation(this.state.width)
         .to(this.props.width).in(this.props.duration).ease(Easing.elastic(0.4))
-    ], true);
+    ]).start(true);
   }
 //...
 ```
+
 
 ## Components
 ###[Sliding Text](https://github.com/Introvertuous/react_native_animated/tree/master/src/sliding_text)
