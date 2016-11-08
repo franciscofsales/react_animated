@@ -1,4 +1,4 @@
-import {isNumeric} from './utilities';
+import {isNumeric} from 'javascript_utilities';
 
 export default {
   init(state) {

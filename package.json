@@ -1,6 +1,6 @@
 {
   "name": "react_native_animated",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/Introvertuous/react_native_animated"
@@ -23,7 +23,7 @@
     "react-native-svg": "^4.3.1"
   },
   "dependencies": {
-    "javascript_utilities": "^0.0.9"
+    "javascript_utilities": "^0.1.0"
   },
   "scripts": {
     "test": "jest"
