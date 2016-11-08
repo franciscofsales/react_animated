@@ -1,6 +1,6 @@
 import {isNumeric} from './utilities';
 
-var Animation = {
+export default {
   init(state) {
     this.state = state;
     this._iv = state._value;
@@ -33,7 +33,3 @@ var Animation = {
     this.state.setValue(this._iv);
   }
 };
-
-export default function create(state) {
-  return Object.create(Animation).init(state);
-}

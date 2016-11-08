@@ -1,7 +1,8 @@
 import React, {PropTypes} from 'react';
 import { StyleSheet, Image, Animated } from 'react-native';
 import { sequence } from '../lib/generators';
-import animation from '../lib/animation';
+import Animation from '../lib/animation';
+import {factory} from 'javascript_utilities';
 
 const styles = StyleSheet.create({
   background: {
@@ -28,9 +29,8 @@ class ScrollingImage extends React.Component {
 
   animate(state, target, duration) {
     sequence([
-      animation(state)
-        .to(target).in(duration),
-      animation(state)
+      factory(Animation, state)
+        .to(target).in(duration)
         .to(0).in(duration)     
     ]).start(true);
   }

@@ -1,7 +1,9 @@
 import React, {PropTypes, Component} from 'react';
 import { StyleSheet, View, Animated, Easing } from 'react-native';
 import { sequence } from '../lib/generators';
-import animation from '../lib/animation';
+import Animation from '../lib/animation';
+import {factory} from 'javascript_utilities';
+
 
 const styles = StyleSheet.create({
   row: {
@@ -27,9 +29,9 @@ class ExtendingBar extends Component {
 
   componentDidMount() {
     sequence([
-      animation(this.state.pillarWidth)
+      factory(Animation, this.state.pillarWidth)
         .to(this.props.borderWidth).ease(Easing.elastic(0.4)).delay(this.props.delay),
-      animation(this.state.width)
+      factory(Animation, this.state.width)
         .to(this.props.width).in(this.props.duration).ease(Easing.elastic(0.4))
     ]).start(true);
   }

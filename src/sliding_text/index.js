@@ -2,7 +2,8 @@ import React, { PropTypes } from 'react';
 import { View, Animated } from 'react-native';
 import Svg, {Path} from 'react-native-svg';
 import { parallel } from '../lib/generators';
-import animation from '../lib/animation';
+import Animation from '../lib/animation';
+import {factory} from 'javascript_utilities';
 
 const SIZE = 80;
 const OFFSET_Y = 60;
@@ -31,7 +32,7 @@ class SlidingText extends React.Component {
     props.letters.map((letter, i)=>{
       let normalize = (letter.scale * SIZE) * i;
       let position = new Animated.ValueXY({x: letter.ix, y: letter.iy - normalize});
-      let anim = animation(position).to({x: letter.dx, y: letter.dy - normalize}).in(letter.duration);
+      let anim = factory(Animation, position).to({x: letter.dx, y: letter.dy - normalize}).in(letter.duration);
       this.state.animations.push(anim);
     });
 

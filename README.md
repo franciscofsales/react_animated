@@ -25,9 +25,9 @@ Here is an example from an animated component in this package ([Extending Bar](h
 //...
   componentDidMount() {
     sequence([
-      animation(this.state.pillarWidth)
+      factory(Animation, this.state.pillarWidth)
         .to(this.props.borderWidth).ease(Easing.elastic(0.4)).delay(this.props.delay),
-      animation(this.state.width)
+      factory(Animation, this.state.width)
         .to(this.props.width).in(this.props.duration).ease(Easing.elastic(0.4))
     ]).start(true);
   }

@@ -1,7 +1,8 @@
 import React, {PropTypes, Component} from 'react';
 import { StyleSheet, View, Animated, Easing } from 'react-native';
 import { sequence } from '../lib/generators';
-import animation from '../lib/animation';
+import Animation from '../lib/animation';
+import {factory} from 'javascript_utilities';
 var icon = require('./pd.png');
 
 const MULTIPLIER = 400;
@@ -47,7 +48,7 @@ class ImageSpinner extends Component {
 
   componentDidMount() {
     sequence([
-      animation(this.state.angle)
+      factory(Animation, this.state.angle)
         .to(TARGET).in(DURATION).ease(Easing.linear)
     ]).start(true);
   }

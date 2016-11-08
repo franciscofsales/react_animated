@@ -1,7 +1,8 @@
 import React, { PropTypes } from 'react';
 import { StyleSheet, Animated } from 'react-native';
 import { sequence } from '../lib/generators';
-import animation from '../lib/animation';
+import Animation from '../lib/animation';
+import {factory} from 'javascript_utilities';
 
 const styles = StyleSheet.create({
   text: {
@@ -18,9 +19,9 @@ class PoppingText extends React.Component {
     };
 
     this.animation = sequence([
-      animation(this.state.top)
+      factory(Animation, this.state.top)
         .to(0).in(600),
-      animation(this.state.top)
+      factory(Animation, this.state.top)
         .to(-62).in(200).delay(2000)
     ], this.animCallback.bind(this));
   }
