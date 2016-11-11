@@ -1,5 +1,5 @@
 # React Animated
-This package is a collection of animated components as well as a few utilities for creating animations in react. The goal is that everything should be compatible with either the react or the react native environment. This is achieved by leveraging libraries specifically made to handle animations on their respective platforms, being [animated](https://facebook.github.io/react-native/docs/animated.html) for react native, and velocity for react. The project is very much a work in progress.
+This package is a collection of animated components as well as a few utilities for creating animations in react. The goal is that everything should be compatible with either the react or the react native environment. This is achieved by leveraging libraries specifically made to handle animations on their respective platforms, being [animated for react native](https://facebook.github.io/react-native/docs/animated.html), and [velocity for react](https://github.com/twitter-fabric/velocity-react). The project is very much a work in progress.
 
 ## Install
 To install, use npm:
