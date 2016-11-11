@@ -1,5 +1,5 @@
 # React Animated
-This package is a collection of animated components as well as a few utilities for creating animations in react.
+This package is a collection of animated components as well as a few utilities for creating animations in react. The goal is that everything should be compatible with either the react or the react native environment.
 
 ## Install
 To install, use npm:

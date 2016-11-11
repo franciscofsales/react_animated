@@ -4,7 +4,6 @@ import { sequence } from '../lib/generators';
 import Animation from '../lib/animation';
 import {factory} from 'javascript_utilities';
 
-
 const styles = StyleSheet.create({
   row: {
     flex: 1,

@@ -1,9 +1,9 @@
 {
-  "name": "react_native_animated",
-  "version": "0.3.3",
+  "name": "react_animated",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Introvertuous/react_native_animated"
+    "url": "https://github.com/Introvertuous/react_animated"
   },
   "devDependencies": {
     "babel-jest": "^16.0.0",
